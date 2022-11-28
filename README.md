@@ -14,7 +14,7 @@ There's two ways of going about it:
   
 # But Dennis, how do I do that?
 
-That's where we trick Salesforce into showing us the Lightning Page! While you're not able to open Approval Request in the Object Manager by itself, going into an Object's setup page and replacing the API Name of the Object in the URL with `ProcessInstaneWorkItem` will bring you to that very page! There, you can create a new Lightning Page and go nuts!
+That's where we trick Salesforce into showing us the Lightning Page! While you're not able to open Approval Request in the Object Manager by itself, going into an Object's setup page and replacing the API Name of the Object in the URL with `ProcessInstanceWorkItem` will bring you to that very page! There, you can create a new Lightning Page and go nuts!
 
 The easier way however is to simply open an Approval Request record, then clicking the cog icon and using the "Edit Page" option to directly edit the current (old) Approval Request Layout. Don't forget to make your edited page the Org Default, though!
 
