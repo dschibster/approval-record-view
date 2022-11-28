@@ -2,6 +2,7 @@
 
 Standard Approval Layouts are boring! So why not just display the entire Record Layout of the related record you want to approve?
 
+<img src="https://github.com/dschibster/approval-record-view/blob/master/resources/screenshot.jpg?raw=true"/>
 # How does it work?
 
 There's two ways of going about it:
