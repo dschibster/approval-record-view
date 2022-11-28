@@ -10,7 +10,7 @@ There's two ways of going about it:
 
 * If you want to only display the record layout of your target object, all you need to do is drag the component onto the Approval Request Lightning Page!
 * If there is a related Record to this target object you want to check, then you can use the checkbox "Use Custom Config?" to traverse the field relationships of your Target Object up to the record Id you need. For Contact, just use "AccountId", for example, to check the Account Layout!
-  * Make Sure that the DeveloperName of your Custom Metadata Record is identical to the DeveloperName of the Approval Process you want to have a custom record lookup to! 
+  * For this to work, you need to create a new record in the "Approval Record View Id" Custom Metadata Type. Make Sure that the DeveloperName of your Custom Metadata Record is identical to the DeveloperName of the Approval Process you want to have a custom record lookup to! 
   
 # But Dennis, how do I do that?
 
