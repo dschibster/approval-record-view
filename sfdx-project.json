@@ -2,14 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true,
-      "package": "Approval Record View",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "versionDescription": "View complete related record layouts on your approval page",
-      "unpackagedMetadata": {
-        "path": "unpackaged"
-      }
+      "default": true
     },
     {
       "path": "unpackaged"
@@ -19,7 +12,5 @@
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0",
-  "packageAliases": {
-    "Approval Record View": "0Ho2p000000CafxCAC"
-  }
+  "packageAliases": {}
 }
