@@ -9,6 +9,7 @@
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
             <property name="columns" type="Integer" default="1" label="Number of columns" description="Choose between 1 and 2" />
+            <property name="customized" type="Boolean" default="false" label="Use Custom Config?" description="If yes, searches for Approval Record View Id in Custom Metadata" />
         </targetConfig>
     </targetConfigs>
     <masterLabel>Approval Record View</masterLabel>
