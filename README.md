@@ -12,6 +12,8 @@ There's two ways of going about it:
 * If there is a related Record to this target object you want to check, then you can use the checkbox "Use Custom Config?" to traverse the field relationships of your Target Object up to the record Id you need. For Contact, just use "AccountId", for example, to check the Account Layout!
   * For this to work, you need to create a new record in the "Approval Record View Id" Custom Metadata Type. Make Sure that the DeveloperName of your Custom Metadata Record is identical to the DeveloperName of the Approval Process you want to have a custom record lookup to! 
   
+As Approval Pages are normally one-for-all in the entire org, the setting you use is going to be universal. If you decide to use a custom config, those that do not have any will still default to the normal record id. No worries!
+  
 # But Dennis, how do I do that?
 
 That's where we trick Salesforce into showing us the Lightning Page! While you're not able to open Approval Request in the Object Manager by itself, going into an Object's setup page and replacing the API Name of the Object in the URL with `ProcessInstanceWorkItem` will bring you to that very page! There, you can create a new Lightning Page and go nuts!
