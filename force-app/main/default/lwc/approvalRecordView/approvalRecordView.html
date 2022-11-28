@@ -1,0 +1,5 @@
+<template>
+    <template if:true={targetObjectType}>
+        <lightning-record-form object-api-name={targetObjectType} columns={columns} density="compact" record-id={targetObjectId} mode="readonly" layout-type="Full"></lightning-record-form>
+    </template>
+</template>
